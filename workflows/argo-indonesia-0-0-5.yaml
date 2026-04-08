@@ -28,7 +28,7 @@ spec:
       - name: image-tag
         value: "0.0.3-12-g5e58708"
       - name: result-version
-        value: "0.0.5. wpp"
+        value: "0.0.5.wpp"
       - name: tiles-subset
         value: '[\"72,36\",\"72,35\"]' # Can be [] for all tiles or '[\"1965,62\",\"1953,69\"]'
         #value: '[]'
