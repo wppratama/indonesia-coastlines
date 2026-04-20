@@ -5,7 +5,7 @@ input:
 
 output:
   location: "s3://piksel-staging-public-data/ls_coastlines/"
-  crs: "EPSG:6933"
+  crs: "EPSG:4326"
 
 stac:
   stac_api_url: "https://landsatlook.usgs.gov/stac-server"
@@ -31,7 +31,7 @@ options:
 
   use_ensemble: False
 
-  load_buffer_distance: 5000 # in meters, ~1km; unit depends on the CRS
+  load_buffer_distance: 0.045 # in meters, ~1km; unit depends on the CRS
 
   lower_scene_limit: 100
   upper_scene_limit: 2000
