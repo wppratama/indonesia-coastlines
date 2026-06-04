@@ -12,7 +12,7 @@ options:
   end_year: 2025
   baseline_year: 2024
 
-  tide_model: "INATIDES"
+  tide_model: "FES2022"
 
   water_index: "combined"
   index_threshold: 0.0
